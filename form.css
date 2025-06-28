@@ -1,0 +1,73 @@
+body{
+   
+    background-image:url("https://www.w3schools.com/css/img_mountains.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#form{
+    width:350px;
+    margin:10vh auto 0 auto;
+
+    background-image: url("https://www.w3schools.com/css/img_mountains.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    padding: 10px;
+    
+    
+}
+label{
+    color: #020621;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    color:#240627;
+}
+
+#form button{
+    background-color: #07167d;
+    color:white;
+    border: 1px solid #05306c;
+    border-radius: 10px;
+    padding:10px;
+    margin:20px 0px;
+    cursor:pointer;
+    font-size:20px;
+    width:100%;
+}
+
+.input-group{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size:20px;
+    margin-top:5px;
+    padding:10px;
+    border:1px solid rgb(32, 34, 173) ;
+}
+
+.input-group input:focus{
+    outline:0;
+}
+
+.input-group .error{
+    color:rgb(242, 18, 18);
+    font-size:16px;
+    margin-top: 5px;
+}
+
+.input-group.success input{
+    border-color: #0cc477;
+}
+
+.input-group.error input{
+    border-color:rgb(206, 67, 67);
+}
