@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c6098306-c2d4-4f2d-bfa8-70cae7efe008)📝Registration Form with Validation
+📝Registration Form with Validation
 
 This is a simple and clean registration form built with HTML, CSS, and JavaScript. It checks for basic input errors like empty fields, invalid email, short passwords, and password mismatch – and gives users friendly feedback right away.
 
